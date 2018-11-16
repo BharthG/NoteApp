@@ -8,6 +8,8 @@ import UIKit
 protocol DetailViewControllerDelegate {
     func updateText(newText:String)
 }
+
+
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var textView: UITextView!
